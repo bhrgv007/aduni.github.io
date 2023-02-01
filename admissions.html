@@ -1,0 +1,338 @@
+<html lang="en">
+
+<head>
+    <title>AD University</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-sm fixed-top p-4 d-none d-xl-block">
+        <div class="container-fluid">
+            <a class="navbar-brand text-decoration-none fw-bold text-white" href="#">
+                <img src="style_sheets/pictures/logo.png" class="" width="40%">AD University</a>
+            <div class="" id="mynavbar">
+                <ul class="navbar-nav ">
+                    <li class="nav-item d-flex">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item d-flex">
+                        <a class="nav-link" href="admissions.html">Admissions</a>
+                    </li>
+
+                    <li class="nav-item droper">
+                        <span class="dropdown">
+                            <button class="dropbtn"><a class="nav-link">Programs <span class="dropdown-toggle"></span></a></button>
+                            <div class="dropdown-content">
+                                <a href="">P.H.D</a>
+                                <a href="">Degree</a>
+                                <a href="">LAW</a>
+                                <a href="">Master's</a>
+                                <a href="">B-Tech</a>
+                                <a href="">M.B.A</a>
+
+                            </div>
+                        </span>
+                    </li>
+                    <li class="nav-item d-flex ">
+                        <a class="nav-link" href="javascript:void(0)">Testimonials</a>
+                    </li>
+                    <li class="nav-item d-flex">
+                        <a class="nav-link" href="careers.html">Careers</a>
+                    </li>
+                    <li class="nav-item d-flex">
+                        <a class="nav-link" href="javascript:void(0)">Placements</a>
+                    </li>
+                    <li class="nav-item d-flex">
+                        <a class="nav-link" href="jav ascript:void(0)">
+                            Contact Us
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item droper">
+                        <span class="dropdown">
+                            <button class="dropbtn"><a class="nav-link">Register <span class="dropdown-toggle"></span></a></button>
+                            <div class="dropdown-content">
+                                <a href="login.html">Login</a>
+                                <a href="register.html">Sign Up</a>
+                            </div>
+                        </span>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+
+
+    <nav class="navbarsm d-xl-none">
+        <div id="mainbox" onclick="openFunction()">&#9776;</div>
+        <div id="menu" class="sidemenu">
+            <a href="index.html" id="link1" class="fon1">Home</a>
+            <a href="#" id="link" class="fon1">Admissions</a>
+
+
+            <span class="dropdown">
+
+                <button class="c1 dropbtn" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    <a class="" class="">Programs 
+                    <span class="dropdown-toggle c1"></span></a></button>
+                <div class="collapse" id="dashboard-collapse">
+                    <a href="">P.H.D</a>
+                    <hr>
+                    <a href="">LAW</a>
+                    <hr>
+                    <a href="admissions.html">Admissions</a>
+                    <hr>
+                    <a href="">Degree</a>
+                    <hr>
+                    <a href="">Master's</a>
+                    <hr>
+                    <a href="">B-Tech</a>
+                    <hr>
+                    <a href="">M.B.A</a>
+                    <hr>
+
+                </div>
+            </span> 
+
+
+
+            <a href="#" id="link" class="fon1">Testimonials</a>
+            <a href="#" id="link" class="fon1">Careers</a>
+            <a href="#" id="link" class="fon1">Placements</a>
+            <a href="" id="link" class="fon1">Contact Us</a>
+
+            <div class="col-sm-10 mx-auto pt-5 m-5 navlogo">
+                <img src="style_sheets/pictures/logo.png" width="100%" class="">
+            </div>
+            <div class="closebtn" onclick="closeFunction()">&times;</div>
+        </div>
+    </nav>
+
+<!----------------------Navbar End--------------------------------->
+
+
+
+<!----------------------Home--------------------------------->
+<!----------------------Admissions--------------------------------->
+
+<div class="nav-banner"></div>
+
+<div class="n-imgbanner">
+    <div class="heading text-center pt-5">
+        <h2 class="pt-4">Admiss<span>ions</span></h2>
+    </div>
+    <div class="u-line"></div>
+</div>
+
+<section class="p-5 bg-light">
+    <div class="container a-box card p-5">
+      <h2 class="text-center">Admission Registration</h2>
+      <form id="Admission-form">
+        <div class="input-box">
+          <label for="name" class="title-label" id="name-label">Name of the Applicant:</label>
+          <input type="text" id="name" class="input-text" placeholder="Enter your name" required>
+        </div>
+        <div class="input-box">
+          <label for="email" class="title-label" id="email-label">E-mail</label>
+          <input type="email" id="email" class="input-text" placeholder="Enter your e-mail" required>
+        </div>
+        <div class="input-box">
+            <label for="tel" class="title-label" id="phone-label">Mobile No:</label>
+            <input type="tel" id="tel" class="input-text" placeholder="Phone" required>
+          </div>
+        <div class="input-box">
+          <label for="number" class="title-label" id="number-label">Date of Birth:</label>
+          <input type="date" id="dob" class="input-text" min="0" max="200" placeholder="D.O.B">
+        </div>
+        <h4>Couorse Intrested?</h4>
+        <div class="input-box">
+          <select name="role" id="dropdown" class="input-text">
+            <option value="student">M.B.A</option>
+            <option value="LAW">LAW</option>
+            <option value="B.COM"> B.COM</option>
+            <option value="B.B.A">B.B.A</option>
+            <option value="B-Tech">B-Tech</option>
+          </select>
+        </div>
+        <h4>Gender</h4>
+        <div class="input-box" id="radio-section">
+          <label><input type="radio" id="Male" name="recommend" value="male">Male</label>
+          <label><input type="radio" id="Female" name="recommend" value="maybe">Female</label>
+        </div>
+        <h4>Any Queries or Message?</h4>
+        <div class="input-box">
+          <textarea id="comment" class="input-text" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <input type="submit" value="Submit" class="btn ad-btn">
+      </form>
+    </div>
+  </section>
+
+
+
+<!-----------------Footer Start----------------->
+    <footer class="footer pt-5">
+         <div class="container">
+            <div class="footer-cta pt-4 pb-4">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>1010 Avenue, sw 54321, Ireland</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9x xxxxxxxxxx0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-3">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="footer-col col-xl-3 col-md-3">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">Contct Us</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Calender</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    
+                    </ul>
+                    </div>
+                    <div class="footer-col col-xl-3 col-md-3">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">R&D</a></li>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">Skills</a></li>
+                    </ul>
+                    </div>
+                    <div class="footer-col col-xl-3 col-md-3">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Leadership</a></li>
+                        <li><a href="">Infrastructure</a></li>
+                        <li><a href="">Faculty</a></li>
+                        <li>
+                            <a data-bs-toggle="collapse" data-target="#showservice" href="#showservice" role="button" aria-expanded="false" aria-controls="showservice">
+                                <span class="c5">Show More </span>
+                            </a>
+                        </li>
+                        <div class="collapse" id="showservice">
+                            <li><a href="">Campus</a></li>
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">Admissions</a></li>
+                            <li><a href="">Libraries</a></li>
+                            <li><a href="">Events</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="footer-col col-xl-3 col-md-3">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="instagram" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-white mt-4 pb-4 pt-4" style="background: #202020">Copyright © 2023 by AD University. All Rights Reserved.</div>
+    </footer>
+
+
+
+
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var upbtn = $(window).scrollTop()
+                var nav = $(window).scrollTop()
+                if (upbtn > 80) {
+                    $(".upbtn").css("opacity", "1");
+                    $(".upbtn").css("transition", ".5s");
+                    $(".upbtn").css("cursor", "pointer");
+                    $(".logo").css("width", "25%");
+                    $(".logo,.nav-link").css("transition", ".5s");
+                    $(".nav-link").css("font-size", "16px");
+
+                } else {
+                    $(".upbtn").css("opacity", "0");
+                    $(".upbtn").css("transition", ".5s");
+                    $(".upbtn").css("cursor", "context-menu");
+                    $(".logo").css("width", "40%");
+                    $(".logo,.nav-link").css("transition", ".5s");
+                    $(".nav-link").css("font-size", "18px");
+                }
+            });
+        });
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var upbtn = $(window).scrollTop();
+                if (upbtn > 0) {
+                    $(".navbar,.navbarsm").css("background", "#01a990");
+
+                    $(".navbar,.navbarsm").css("transition", ".5s");
+                } else {
+                    $(".navbar,.navbarsm").css("background", "transparent");
+                    $(".navbar,.navbarsm").css("transition", ".5s");
+                }
+            });
+        });
+
+    </script>
+
+    <!--  script's  -->
+    <script type="text/javascript" src="scripts/main.js"></script>
+
+
+
+
+</body>
+
+</html>
